@@ -86,7 +86,7 @@ const Navbar = () => {
             ))}
           </div>
           <Button asChild className="hidden rounded-xl md:block">
-            <Link href="/" target="_blank">
+            <Link href="/invite" target="_blank">
               Add To Discord
             </Link>
           </Button>
@@ -105,7 +105,7 @@ const Navbar = () => {
             </NavLink>
           ))}
           <Button asChild className="rounded-xl">
-            <Link href="/" target="_blank">
+            <Link href="/invite" target="_blank">
               Add To Discord
             </Link>
           </Button>

@@ -10,7 +10,7 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge"
+import { Badge } from "@/components/ui/badge";
 
 import { Github, icons } from "lucide-react";
 
@@ -34,7 +34,14 @@ function FeatureCard({
         <CardTitle className="flex items-center justify-center gap-2">
           <LucideIcon className="w-10 h-10 p-2 text-gray-500 rounded-full bg-[linear-gradient(180deg,_rgba(39,_39,_42,_0.68)_0%,_rgba(39,_39,_42,_0.00)_100%)] flex items-center justify-center border border-zinc-700" />{" "}
           {title}
-          {isNew && <Badge className="text-cyan-300 bg-cyan-700/25 border-cyan-300" variant="outline">New</Badge>}
+          {isNew && (
+            <Badge
+              className="text-cyan-300 bg-cyan-700/25 border-cyan-300"
+              variant="outline"
+            >
+              New
+            </Badge>
+          )}
         </CardTitle>
       </CardHeader>
       <CardContent>
@@ -128,6 +135,30 @@ export default function Home() {
             users a variety of interactive events and enhancing overall server
             dynamics.
           </FeatureCard>
+        </div>
+      </section>
+      <hr className="w-full" />
+      <section className="py-20 text-center">
+        <div className="max-w-2xl mx-auto space-y-4 px-4">
+          <h2 className="text-4xl font-bold mb-4">
+            What Are You Waiting For? Get Started Now!
+          </h2>
+          <p className="text-zinc-400">
+            Start leveraging the power of Giftify for your Discord community
+            today.
+          </p>
+        </div>
+
+        <div className="flex items-center justify-center mt-8 px-4">
+          <Button
+            asChild
+            variant="outline"
+            className="bg-gradient-to-b from-gray-700 to-black rounded-full w-full md:w-auto shadow-white hover:shadow-[0_0_2rem_-0.5rem_#fff8] hover:bg-gradient-to-t transition-all duration-300"
+          >
+            <Link href="/invite" target="_blank">
+              Get Started
+            </Link>
+          </Button>
         </div>
       </section>
     </main>
