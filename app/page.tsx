@@ -138,7 +138,8 @@ export default function Home() {
         </div>
       </section>
       <hr className="w-full" />
-      <section className="py-20 text-center">
+      {/* Get Started Section */}
+      <section id="get-started" className="py-20 text-center">
         <div className="max-w-2xl mx-auto space-y-4 px-4">
           <h2 className="text-4xl font-bold mb-4">
             What Are You Waiting For? Get Started Now!

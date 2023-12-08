@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import { Inter as FontSans } from "next/font/google";
 
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 import { cn } from "@/lib/utils";
 
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Navbar />
         </header>
         {children}
+        <Footer />
       </body>
     </html>
   );
