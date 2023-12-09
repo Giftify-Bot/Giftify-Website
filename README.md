@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Website Source Code
 
-## Getting Started
+This repository contains the source code for Giftify Bot's website.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+The website is built using [NextJS](https://nextjs.org/). It uses [Tailwind CSS](https://tailwindcss.com) for styling and [ShadCN UI](https://ui.shadcn.com) for components.
+
+## Installation
+
+1. Clone the repository:
+
+```shell
+git clone https://github.com/Giftify-Bot/Giftify-Website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install the dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+cd Giftify-Website
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
 
-## Learn More
+To run the website, use the following command:
 
-To learn more about Next.js, take a look at the following resources:
+```shell
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This will start the website on http://localhost:3000.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Contributing
 
-## Deploy on Vercel
+If you'd like to contribute to the website, you can follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes and commit them.
+- Push your changes to your fork.
+- Submit a pull request to the main repository.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Website
+
+To access the live version of the website, visit https://giftifybot.vercel.app.
+
+# License
+
+The source code in this repository is licensed under the **[MIT License](https://github.com/Giftify-Bot/Giftify-Website/blob/main/LICENSE)**.
