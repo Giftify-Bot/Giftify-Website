@@ -1,21 +1,33 @@
 <svg width="680" height="680" viewBox="0 0 680 680" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_110_7)">
-<path d="M123.249 340H556.751V510C556.751 557.033 518.784 595 471.751 595H208.249C161.216 595 123.249 557.033 123.249 510V340Z" stroke="white" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M566.667 238H113.333C97.6853 238 85 250.685 85 266.333V311.667C85 327.315 97.6853 340 113.333 340H566.667C582.315 340 595 327.315 595 311.667V266.333C595 250.685 582.315 238 566.667 238Z" fill="white" stroke="white" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M384.767 340H295.516V595H384.767V340Z" fill="white" stroke="white" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M276.533 234.317C337.733 246.217 353.033 231.483 341.416 169.433C327.816 96.9 256.133 60.3502 212.5 103.7C168.3 147.05 204.567 220.434 276.533 234.317V234.317Z" stroke="white" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M413.384 234.317C352.184 246.217 336.883 231.483 348.5 169.433C362.1 96.9 433.783 60.3502 477.416 103.7C521.616 147.05 485.351 220.434 413.384 234.317V234.317Z" stroke="white" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<defs>
-<filter id="filter0_d_110_7" x="-4" y="0" width="688" height="688" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_110_7"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_110_7" result="shape"/>
-</filter>
-</defs>
+    <g filter="url(#filter0_d_110_7)">
+        <path
+            d="M123.249 340H556.751V510C556.751 557.033 518.784 595 471.751 595H208.249C161.216 595 123.249 557.033 123.249 510V340Z"
+            stroke="white" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" />
+        <path
+            d="M566.667 238H113.333C97.6853 238 85 250.685 85 266.333V311.667C85 327.315 97.6853 340 113.333 340H566.667C582.315 340 595 327.315 595 311.667V266.333C595 250.685 582.315 238 566.667 238Z"
+            fill="white" stroke="white" stroke-width="25" stroke-linecap="round"
+            stroke-linejoin="round" />
+        <path d="M384.767 340H295.516V595H384.767V340Z" fill="white" stroke="white"
+            stroke-width="25" stroke-linecap="round" stroke-linejoin="round" />
+        <path
+            d="M276.533 234.317C337.733 246.217 353.033 231.483 341.416 169.433C327.816 96.9 256.133 60.3502 212.5 103.7C168.3 147.05 204.567 220.434 276.533 234.317V234.317Z"
+            stroke="white" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" />
+        <path
+            d="M413.384 234.317C352.184 246.217 336.883 231.483 348.5 169.433C362.1 96.9 433.783 60.3502 477.416 103.7C521.616 147.05 485.351 220.434 413.384 234.317V234.317Z"
+            stroke="white" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <defs>
+        <filter id="filter0_d_110_7" x="-4" y="0" width="688" height="688"
+            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+            <feOffset dy="4" />
+            <feGaussianBlur stdDeviation="2" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_110_7" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_110_7" result="shape" />
+        </filter>
+    </defs>
 </svg>

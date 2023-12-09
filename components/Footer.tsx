@@ -11,7 +11,7 @@ const Footer = () => {
       <footer className="py-6 px-4 md:px-36 flex flex-col-reverse md:flex-row items-center justify-between gap-10 md:gap-0 md:h-64">
         <div className="flex flex-col items-center justify-between h-full mb-6 md:mb-0">
           <Image src={Logo} alt="Giftify Logo" className="w-auto h-10" />
-          <div className="flex items-center justify-center gap-1 text-zinc-400 text-sm">
+          <div className="flex md:flex-col items-center justify-center gap-1 text-zinc-400 text-sm">
             <div>&copy; 2023 Giftify, Inc.</div>
             <div className="flex items-center">
               <Link href="/github" target="_blank">

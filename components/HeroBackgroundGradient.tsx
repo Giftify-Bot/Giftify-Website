@@ -7,7 +7,7 @@ const HeroBackgroundGradient = () => (
     xmlns="http://www.w3.org/2000/svg"
     className="absolute top-[-128px] left-[-128px] z-[-1]"
   >
-    <g clip-path="url(#clip0_202_27)" filter="url(#filter0_d_202_27)">
+    <g clipPath="url(#clip0_202_27)" filter="url(#filter0_d_202_27)">
       <g filter="url(#filter1_f_202_27)">
         <circle cx="4" r="256" fill="#8C8C8C" />
       </g>
@@ -20,9 +20,9 @@ const HeroBackgroundGradient = () => (
         width="1928"
         height="1088"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           type="matrix"
@@ -55,9 +55,9 @@ const HeroBackgroundGradient = () => (
         width="1512"
         height="1512"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feBlend
           mode="normal"
           in="SourceGraphic"
