@@ -51,8 +51,8 @@ const Footer = () => {
           <div className="flex flex-col mb-4 md:mb-0">
             <h3 className="text-lg font-semibold text-center">About</h3>
             <Button asChild variant="link">
-              <Link href="/about" className="text-zinc-600 font-normal ">
-                About
+              <Link href="/faq" target="_blank" className="text-zinc-600 font-normal ">
+                FAQ
               </Link>
             </Button>
             <Button asChild variant="link">
