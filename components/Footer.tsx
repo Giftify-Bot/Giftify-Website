@@ -19,7 +19,6 @@ const Footer = () => {
               <Link href="/github" target="_blank">
                 <Github className="h-4 w-4" />
               </Link>
-              <hr className="w-4 rotate-90" />
               <Link href="/twitter" target="_blank">
                 <Twitter className="h-4 w-4" />
               </Link>
