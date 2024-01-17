@@ -20,7 +20,7 @@ const NavLink = ({
   <Button asChild variant="link">
     <Link
       href={href}
-      className="text-white font-semibold"
+      className="text-white font-semibold flex"
       target={target ?? "_self"}
     >
       {children}
